@@ -1,0 +1,39 @@
+.products {
+  margin-top: 100px;
+}
+.products-content h1 {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.products-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.product-img {
+  width: 250px;
+}
+.item-p {
+  margin: 10px 0;
+  color: #555555;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .products-cards {
+    display: block;
+    text-align: center;
+  }
+  .product-card {
+    margin-bottom: 20px;
+  }
+  .products-content h1 {
+    font-size: 25px;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}

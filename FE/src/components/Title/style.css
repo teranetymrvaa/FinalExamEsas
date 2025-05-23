@@ -1,0 +1,35 @@
+.title {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.title-cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  /* gap: 20px; */
+  align-items: center;
+}
+.title-card {
+  border-right: 1px solid #555555;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding: 20px 40px;
+}
+.title-h1 {
+  color: #555555;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.title-i {
+  color: #888888;
+}
+@media only screen and (max-width: 600px) {
+  .title-cards {
+    display: block;
+  }
+  .title-h1 {
+    font-size: 20px;
+  }
+}

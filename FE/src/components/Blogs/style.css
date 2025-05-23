@@ -1,0 +1,37 @@
+.blogs {
+  margin-top: 80px;
+}
+.blog-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.blog-card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blog-img {
+  max-width: 350px;
+}
+.blog-date {
+  color: #555555;
+  font-size: 13px;
+}
+.blog-text {
+  font-size: 13px;
+
+  color: #888888;
+}
+@media only screen and (max-width: 600px) {
+  .blog-cards {
+    display: block;
+  }
+  .blog-card {
+    margin-bottom: 20px;
+  }
+  .blog-img {
+    margin-top: 20px;
+  }
+}

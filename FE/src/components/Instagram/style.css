@@ -1,0 +1,17 @@
+.instagram {
+  margin-top: 70px;
+}
+.insta-cards {
+  display: flex;
+}
+.insta-img {
+  width: 20%;
+}
+@media only screen and (max-width: 600px) {
+  .insta-cards {
+    display: grid;
+  }
+  .insta-img {
+    width: 100%;
+  }
+}

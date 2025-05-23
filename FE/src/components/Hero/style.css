@@ -1,0 +1,32 @@
+.hero {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/fashe/images/master-slide-03.jpg");
+  background-repeat: no-repeat;
+}
+.hero-content {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+.hero-p {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.hero-h1 {
+  font-size: 60px;
+}
+.hero-btn {
+  background-color: white;
+  color: black;
+  padding: 15px 35px;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .hero-h1 {
+    font-size: 40px;
+  }
+}

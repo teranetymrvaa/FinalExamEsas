@@ -1,0 +1,87 @@
+.beauty {
+  background-color: #f2f2f2;
+  margin-top: 70px;
+}
+.beauty-cards {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.beauty-card1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 400px;
+  max-width: 550px;
+  text-align: center;
+  color: white;
+  background-image: url("https://preview.colorlib.com/theme/fashe/images/banner-08.jpg");
+  background-size: cover;
+}
+.card1-h2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.card1-h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+.card1-p {
+  letter-spacing: 2px;
+}
+.dates {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.date {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 5px 10px;
+  border: 1px solid #555555;
+}
+
+.beauty-card2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-height: 400px;
+  max-width: 550px;
+  text-align: center;
+  background-image: url("https://preview.colorlib.com/theme/fashe/images/shop-item-09.jpg");
+  background-size: cover;
+}
+.beauty-price {
+  margin-top: 10px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.card2-p {
+  letter-spacing: 1px;
+  color: #555555;
+}
+.old-price {
+  color: #555555;
+  text-decoration: line-through;
+}
+.new-price {
+  color: #e65540;
+}
+@media only screen and (max-width: 600px) {
+  .beauty-cards {
+    display: block;
+  }
+  .beauty-card1 {
+    background-position: center center;
+  }
+  .beauty-card2 {
+    background-position: center center;
+  }
+  .card1-h1 {
+    font-size: 30px;
+  }
+}
